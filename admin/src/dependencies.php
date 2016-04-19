@@ -22,3 +22,8 @@ $container['logger'] = function ($c) {
 $container['config'] = function ($c) {
     return new LightPress\Configure($c->get('settings')['config_file']);
 };
+
+// page object model
+$container['page'] = function ($c) {
+    return new LightPress\Page($c->get('settings')['pages_dir']);
+};

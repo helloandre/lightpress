@@ -45,7 +45,9 @@ class Configure {
      * output our data to disk
      */
     private function write() {
-        file_put_contents($this->file, serialize($this->data));
+        if (!file_put_contents($this->file, serialize($this->data))) {
+            throw new \Exception("could not write to config_file");
+        }
     }
 
     /**

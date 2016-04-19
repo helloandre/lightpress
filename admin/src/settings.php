@@ -15,6 +15,9 @@ return [
         ],
 
         // where our user-configurable data is stored
-        'config_file' => __DIR__ . '/../.config'
+        'config_file' => __DIR__ . '/../.config',
+
+        // where pages are stored
+        'pages_dir' => __DIR__ . '/../pages/'
     ],
 ];
