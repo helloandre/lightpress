@@ -1,0 +1,31 @@
+{
+    "name": "helloandre/lightpress",
+    "description": "A flat-file CMS powered by a static site generator",
+    "keywords": ["cms", "publish", "blog", "static site generator"],
+    "homepage": "http://github.com/helloandre/lightpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Bluehs",
+            "email": "hello@andrebluehs.net",
+            "homepage": "https://andrebluehs.net"
+        },
+        {
+            "name": "Ryan Bump",
+            "email": "ryandbump@gmail.com",
+            "homepage": "https://github.com/ryandbump"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "helloandre/pressing": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LightPress\\": "admin/src/LightPress/"
+        }
+    }
+}
