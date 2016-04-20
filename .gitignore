@@ -2,3 +2,8 @@
 /admin/logs/*
 /admin/pages/
 !/logs/README.md
+/public/
+/src/*
+!/src/admin/
+/templates/*
+/node_modules/

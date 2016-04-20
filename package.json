@@ -1,0 +1,23 @@
+{
+  "name": "lightpress",
+  "version": "0.1.0",
+  "description": "A flat-file CMS powered by a static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cms",
+    "publish",
+    "blog"
+  ],
+  "authors": [
+    "Andre Bluehs <hello@andrebluehs.net>",
+    "Ryan Bump <ryandbump@gmail.com>"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.0",
+    "webpack-stream": "^3.1.0"
+  }
+}
